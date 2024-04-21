@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    font-family: fira sans;
+    font-size: 20px;
+    color: rgb(16, 118, 144);
+  }
+
+h1{
+    font-family:chromate;
+}
+
+.hidden{
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1.5s;
+}
+
+.show{
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+
+.wcu-text:nth-child(2){
+  transition-delay: 200ms;
+}
+
+.wcu-text:nth-child(3){
+  transition-delay: 400ms;
+}
+
+.wcu-text:nth-child(4){
+  transition-delay: 600ms;
+}
+
+@media(prefers-reduced-motion){
+  .hidden {
+    transition: none;
+  }
+}

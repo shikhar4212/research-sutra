@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="home-header.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="general.css">
+  <link rel="shortcut icon" type="x-icon" href="media/Logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <title>Research Sutra</title>
+  <style>
+    
+   
+    
+    .user-tab{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+    }
+
+    .user-tab-actions{
+      display: flex;
+      flex-direction: column;
+      max-width: 300px;
+      padding: 20px 20px 20px 20px;
+
+    }
+   
+    .why-choose-us{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin-bottom: 60px;
+      color: rgb(16, 118, 144);
+      background-color: white;
+      transition: 0.5s;
+      margin-top: 80px;
+      margin-bottom: 80px;
+      transition: 1.5s;
+    }
+
+    .red{
+      color:rgba(23,90,98,255);
+    }
+
+    .wcu-text{
+      padding: 20px 20px 20px 20px;
+      font-size: 20px;
+      text-align: justify;
+      box-shadow: 0px 0px 25px rgba(2, 114, 107, 0.2);
+      border-radius: 20px;
+      margin-right: 5px;
+      margin-left: 5px;
+      color: white;
+      background-color:rgba(23,90,98,255);
+    }
+
+    .wcu-tab{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .wcu-trans{
+      background-color: black;
+    }
+
+    .join-us-text{
+      text-align: center;
+      margin: 100px 20px 20px 20px;
+
+    }
+
+    .user-tab-action-button{
+      padding: 20px 20px 20px 20px;
+      font-size: 20px;
+      font-family: fira sans;
+      background-color: rgba(23,90,98,255);
+      color:white;
+      border: none;
+      border-radius: 6px;
+      transition: 0.3s;
+      cursor: pointer;
+
+    }
+
+    .user-tab-action-button:hover{
+      background-color: white;
+      color: rgba(2, 114, 107, 255);
+    }
+
+    .user-tab-container{
+      display: flex;
+      justify-content: space-evenly;
+      margin-bottom: 20px;
+    }
+
+    .publish-your-journal{
+      padding: 100px 20px 100px 20px;
+      text-align: center;
+      margin-bottom: 80px;
+      margin-top: 100px;
+
+    }
+
+    
+
+
+
+  </style>
+  <script defer src="home.js"></script>
+
+</head>
+<body>
+  <header class="header">
+    <div class="header-top" id="headertop">
+      <div class="logo-rs" id="logors">
+        <img src="media/Logo.png" class="logo-img">
+        <h1 style="color: rgba(23,90,98,255);">Research Sutra</h1>
+      </div>
+        <button class="h-button">
+          About Us
+        </button>
+        <a href="journals.html">
+          <button class="h-button">
+          Journals
+        </button>
+        </a>
+        
+        <button class="h-button">
+          Policy
+        </button>
+        <button class="h-button">
+          Services
+        </button>
+        <button class="h-button">
+          Subscribe
+        </button>
+        <button class="h-button">
+          Contact us
+        </button>    
+      
+    </div>
+    <div>
+      <video autoplay loop muted plays-inline class="rs-vid">
+        <source src="media/Research-vid.mp4" type="video/mp4">
+      </video>
+    </div>
+
+  </header> 
+
+
+  <section class="publish-your-journal hidden">
+    <h1 style="font-size: 54px;">Publish Your Journal</h1>
+    <p>To serve institutions and societies in the journey of publication, Research Sutra will provide a convenient online journal system to support publication journey from submission through peer review to production. The system will be transparent to the Editorial Board.</p>
+    <p>Research Sutra will host the publication on behalf of the journal owner.</p>
+  </section>
+  <div class="why-choose-us hidden">
+    <div>
+      <h1 style="font-size: 54px;">Why Choose Us?</h1>
+    </div>
+    <div class="wcu-tab">
+      <div class="wcu-text hidden">
+        <h4>Cost Effective</h4>
+        <p>We provide online hosting services at lowest cost. In addition, Research Sutra will be responsible for obtaining ISSN, abstracting and supporting the indexing of your journal. </p>
+      </div>
+      <div class="wcu-text hidden">
+        <h4>Open Access Publication</h4>
+        <p>All journals will be available online without any embargo, fee or log-in id for readers globally.</p>
+      </div>
+      <div class="wcu-text hidden">
+        <h4>Expertise</h4>
+        <p>Reasearch Sutra&#39;s team members have 10 to 20 years of experience in the field of publication. We provide you customised solutions for all your publication worries.</p>
+      </div>
+      <div class="wcu-text hidden">
+        <h4>Your ownership</h4>
+        <p>Editorial Board owns the control of all publication procedures. You would retain the ownership of the journal.</p>
+      </div>
+    </div>  
+  </div>
+
+  <div class="user-tab hidden">
+    <div class="join-us-text">
+      <h1 style="font-size: 54px;">Join Us</h1>
+
+    </div>
+    <div class="user-tab-container">
+      <div class="user-tab-actions">
+        <button class="user-tab-action-button">Publish Your Journal</button>
+  
+      </div>
+      <div class="user-tab-actions">
+        <button class="user-tab-action-button">Join as an Editor</button>
+      </div>
+      <div class="user-tab-actions">
+        <button class="user-tab-action-button">Join as Reviewer</button>
+      </div>
+      <div class="user-tab-actions">
+        <button class="user-tab-action-button">Publish Your Conference</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+      <p>Research Sutra</p>
+  </div>
+
+</body>
+</html>

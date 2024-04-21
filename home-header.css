@@ -1,0 +1,71 @@
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+  }
+
+
+.header-top{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 2;
+    box-shadow: 0px 4px 40px rgba(1, 87, 82, 0.7);
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: all 0.5s;
+    }
+  
+  .logo-img{
+    width: 120px;
+    margin-top: 20px;
+  }
+
+  
+  .logo-rs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    transition: all 0.5s;
+  }
+
+  .header-buttons{
+    display: flex;
+    justify-content: space-evenly;
+    
+  }
+
+  .h-button{
+    padding: 30px;
+    border: none;  
+    font-size: 24px;   
+    font-family: chromate;
+    background: transparent;
+    color: rgba(23,90,98,255);
+    cursor: pointer;
+    transition:0.2s;
+    
+    
+  }
+
+  .h-button:hover{
+    text-decoration: underline;
+  }
+
+
+
+
+  @media (min-aspect-ratio:16/9){
+    .rs-vid{
+      width: 100%;
+    }
+  }
+
+  
