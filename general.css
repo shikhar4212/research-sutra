@@ -3,10 +3,16 @@ body{
     font-family: fira sans;
     font-size: 20px;
     color: rgb(16, 118, 144);
+    overflow-x: hidden; /* Hide horizontal scrollbar */
   }
 
 h1{
     font-family:chromate;
+}
+h3{
+  font-family:chromate;
+  opacity: 70%;
+  font-weight: lighter;
 }
 
 .hidden{
@@ -39,4 +45,13 @@ h1{
   .hidden {
     transition: none;
   }
+}
+.coming-soon{
+  margin-top: 350px;
+  margin-bottom: 350px;
+  display: grid;
+  grid-template-rows: 100px 40px;
+  align-items: center;
+  text-align: center;
+  width: 100%;
 }
