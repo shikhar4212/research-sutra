@@ -60,13 +60,9 @@
   }
 
 
-
-
-  @media (min-aspect-ratio:16/9){
-    .rs-vid{
+  .rs-vid{
       width: 100%;
     }
-  }
 
 .contact-logo{
   width: 25px;
