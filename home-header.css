@@ -64,7 +64,7 @@
 
   @media (min-aspect-ratio:16/9){
     .rs-vid{
-      width: 100vw;
+      width: 100%;
     }
   }
 
